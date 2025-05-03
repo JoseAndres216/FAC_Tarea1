@@ -1,0 +1,169 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/simulation/modelsim
+vdecoder
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1746249684
+!i10b 1
+!s100 DI9JXPJQf46YcDm_HBDkW3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I:Ii=mg2U411JhXoZ6d@NX1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1746222784
+8C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/decoder.sv
+FC:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/decoder.sv
+!i122 0
+L0 1 7
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1746249684.000000
+!s107 C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1|C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/decoder.sv|
+!i113 1
+Z5 o-sv -work work
+Z6 !s92 -sv -work work +incdir+C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1
+Z7 tCvgOpt 0
+vdecoupler
+R1
+Z8 !s110 1746249686
+!i10b 1
+!s100 BHUei1^oECB8YIc=JzjGD0
+R2
+Io<@dICK9A@lASOiChAoil3
+R3
+S1
+R0
+w1746226312
+8C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/decoupler.sv
+FC:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/decoupler.sv
+!i122 3
+L0 1 5
+R4
+r1
+!s85 0
+31
+Z9 !s108 1746249685.000000
+!s107 C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/decoupler.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1|C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/decoupler.sv|
+!i113 1
+R5
+R6
+R7
+vdecoupler_tb
+R1
+R8
+!i10b 1
+!s100 3Z1QIW:SZ>TIzz7DbPkRD2
+R2
+IzLb[bG=Df;SZX9h[2ScY82
+R3
+S1
+R0
+w1746226288
+8C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/decoupler_tb.sv
+FC:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/decoupler_tb.sv
+!i122 5
+L0 1 16
+R4
+r1
+!s85 0
+31
+Z10 !s108 1746249686.000000
+!s107 C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/decoupler_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1|C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/decoupler_tb.sv|
+!i113 1
+R5
+R6
+R7
+vencoder
+R1
+Z11 !s110 1746249685
+!i10b 1
+!s100 8mhaGnF0jTZGMNKKIZ1;W1
+R2
+ITgL;c44]<5bi[6NeSA<1^0
+R3
+S1
+R0
+w1746223269
+8C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/encoder.sv
+FC:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/encoder.sv
+!i122 1
+L0 1 6
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/encoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1|C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/encoder.sv|
+!i113 1
+R5
+R6
+R7
+vlogicBlock
+R1
+R8
+!i10b 1
+!s100 hPFDl8ik0Im]4J>fe63A:3
+R2
+I]^bRI7?Nj`ajoMekReKe:3
+R3
+S1
+R0
+w1746228911
+8C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/logicBlock.sv
+FC:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/logicBlock.sv
+!i122 4
+L0 1 34
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/logicBlock.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1|C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/logicBlock.sv|
+!i113 1
+R5
+R6
+R7
+nlogic@block
+vsevenSegDecoder
+R1
+R11
+!i10b 1
+!s100 HAV84JSkc6^6b4WNbjzQ@2
+R2
+IGc[=ch`aWYMM97PXYFinT1
+R3
+S1
+R0
+w1746225721
+8C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/sevenSegDecoder.sv
+FC:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/sevenSegDecoder.sv
+!i122 2
+L0 1 13
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/sevenSegDecoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1|C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/sevenSegDecoder.sv|
+!i113 1
+R5
+R6
+R7
+nseven@seg@decoder

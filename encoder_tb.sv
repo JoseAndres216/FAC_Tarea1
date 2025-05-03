@@ -1,0 +1,22 @@
+module encoder_tb;
+
+    logic I0, I1, I2, I3;
+    logic O1, O0;
+
+    encoder dut (I0, I1, I2, I3, O1, O0);
+
+    initial begin
+        {I3, I2, I1, I0} = 4'b0000; #10; $display("Sensors input: 0000. Output: %b%b", O1, O0);
+
+        {I3, I2, I1, I0} = 4'b0001; #10; $display("Sensors input: 0001. Output: %b%b", O1, O0);
+
+        {I3, I2, I1, I0} = 4'b0011; #10; $display("Sensors input: 0011. Output: %b%b", O1, O0);
+
+        {I3, I2, I1, I0} = 4'b0111; #10; $display("Sensors input: 0111. Output: %b%b", O1, O0);
+
+        {I3, I2, I1, I0} = 4'b1111; #10; $display("Entrada: 1111. Output: %b%b", O1, O0);
+
+        $finish;
+    end
+
+endmodule

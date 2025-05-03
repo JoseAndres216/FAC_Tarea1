@@ -1,0 +1,95 @@
+# Reading pref.tcl
+# do Tarea1_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1 {C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:21:24 on May 02,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1" C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 23:21:24 on May 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1 {C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/encoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:21:25 on May 02,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1" C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/encoder.sv 
+# -- Compiling module encoder
+# 
+# Top level modules:
+# 	encoder
+# End time: 23:21:25 on May 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1 {C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/sevenSegDecoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:21:25 on May 02,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1" C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/sevenSegDecoder.sv 
+# -- Compiling module sevenSegDecoder
+# 
+# Top level modules:
+# 	sevenSegDecoder
+# End time: 23:21:25 on May 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1 {C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/decoupler.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:21:25 on May 02,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1" C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/decoupler.sv 
+# -- Compiling module decoupler
+# 
+# Top level modules:
+# 	decoupler
+# End time: 23:21:26 on May 02,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1 {C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/logicBlock.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:21:26 on May 02,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1" C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/logicBlock.sv 
+# -- Compiling module logicBlock
+# 
+# Top level modules:
+# 	logicBlock
+# End time: 23:21:26 on May 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1 {C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/decoupler_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:21:26 on May 02,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1" C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/decoupler_tb.sv 
+# -- Compiling module decoupler_tb
+# 
+# Top level modules:
+# 	decoupler_tb
+# End time: 23:21:26 on May 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  decoupler_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" decoupler_tb 
+# Start time: 23:21:26 on May 02,2025
+# Loading sv_std.std
+# Loading work.decoupler_tb
+# Loading work.decoupler
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Input: 00. Output: 0
+# Input: 01.  Output: 1
+# Input: 10. Output: 1
+# Input: 11. Output: 0
+# ** Note: $finish    : C:/Users/josea/OneDrive/Escritorio/Andres/TEC/2025_SemestreI/FundamentosDeArquitecturaDeComputadores/Tarea1/FAC_Tarea1/decoupler_tb.sv(13)
+#    Time: 40 ps  Iteration: 0  Instance: /decoupler_tb
+# End time: 23:21:37 on May 02,2025, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 0

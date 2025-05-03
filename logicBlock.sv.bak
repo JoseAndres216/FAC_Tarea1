@@ -1,0 +1,18 @@
+module logicBlock (input logic I0, I1, I2, I3, clk, rst output logic E, output logic [6:0] segments);
+
+	always_ff @(posedge clk or negedge rst) begin
+		
+		if(~rst) begin
+			
+			
+			
+		end
+		else begin
+		
+			
+		
+		end
+		
+	end
+
+endmodule

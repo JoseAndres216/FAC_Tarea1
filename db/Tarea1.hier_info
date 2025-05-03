@@ -1,0 +1,61 @@
+|logicBlock
+I0 => I0.IN1
+I1 => I1.IN1
+I2 => I2.IN1
+I3 => I3.IN1
+clk => I0f.CLK
+clk => I1f.CLK
+rst => I0f.ACLR
+rst => I1f.ACLR
+E << decoupler:decoupler1.port2
+segments[0] << sevenSegDecoder:sevenSegDecoder1.port2
+segments[1] << sevenSegDecoder:sevenSegDecoder1.port2
+segments[2] << sevenSegDecoder:sevenSegDecoder1.port2
+segments[3] << sevenSegDecoder:sevenSegDecoder1.port2
+segments[4] << sevenSegDecoder:sevenSegDecoder1.port2
+segments[5] << sevenSegDecoder:sevenSegDecoder1.port2
+segments[6] << sevenSegDecoder:sevenSegDecoder1.port2
+
+
+|logicBlock|encoder:encoder1
+I0 => O0.IN0
+I1 => O1.IN0
+I1 => O0.IN1
+I2 => O0.IN0
+I3 => O1.IN1
+I3 => O0.IN1
+O1 <= O1.DB_MAX_OUTPUT_PORT_TYPE
+O0 <= O0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|logicBlock|decoder:decoder1
+I1 => O1.IN0
+I0 => O1.IN0
+I0 => O0.IN0
+I1f => O1.IN1
+I0f => O1.IN1
+I0f => O0.IN1
+O1 <= O1.DB_MAX_OUTPUT_PORT_TYPE
+O0 <= O0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|logicBlock|sevenSegDecoder:sevenSegDecoder1
+I1 => Decoder0.IN0
+I1 => segments[0].DATAIN
+I0 => Decoder0.IN1
+I0 => segments[2].DATAIN
+segments[0] <= I1.DB_MAX_OUTPUT_PORT_TYPE
+segments[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+segments[2] <= I0.DB_MAX_OUTPUT_PORT_TYPE
+segments[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+segments[4] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+segments[5] <= <GND>
+segments[6] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|logicBlock|decoupler:decoupler1
+I1 => S.IN0
+I0 => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
